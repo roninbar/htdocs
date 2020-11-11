@@ -22,7 +22,9 @@
                 <tr>
                     <td>$i</td>
                     <td>{$char['name']}</td>
-                    <td><img src="{$char['image']}" width="100px"></td>
+                    <td>
+                        <img src="{$char['image']}" width="100px">
+                    </td>
                 </tr>
                 _TR;
             }
