@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['url'])) {
-    header("Location: " . $_POST['url'], true, 302);
+    header("Location: {$_POST['url']}", true, 302);
 }
 ?>
 
